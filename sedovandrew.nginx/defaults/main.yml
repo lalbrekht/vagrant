@@ -1,0 +1,13 @@
+---
+nginx_user: "nginx"
+nginx_error_log: "/var/log/nginx/error.log"
+nginx_pid: "/run/nginx.pid"
+
+nginx_events:
+  - "worker_connections 1024"
+
+nginx_http_access_log_filename: "/var/log/nginx/access.log"
+
+nginx_http_default_server_server_name: "_"
+nginx_http_default_server_port: 80
+nginx_http_default_server_root: "/usr/share/nginx/html"

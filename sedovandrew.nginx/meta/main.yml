@@ -1,0 +1,19 @@
+---
+galaxy_info:
+  role_name: nginx
+  author: Sedov Andrey
+  description: Настройка web сервера nginx
+  company: ""
+  issue_tracker_url: https://github.com/sedovandrew/ansible-role-nginx/issues
+  license: BSD
+  min_ansible_version: 1.2
+
+  platforms:
+    - name: EL
+      versions:
+        - 7
+
+  galaxy_tags:
+    - nginx
+
+dependencies: []

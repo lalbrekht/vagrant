@@ -1,0 +1,6 @@
+---
+- name: Configure nginx
+  hosts: all
+  gather_facts: false
+  roles:
+    - sedovandrew.nginx
